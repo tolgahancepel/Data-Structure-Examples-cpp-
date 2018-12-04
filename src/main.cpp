@@ -7,15 +7,16 @@ int main()
 {
     /* ELEMANLAR ÜZERİNDE İŞLEMLER */
 
-    // Toplamda 10 elemanı olan bir dizinin ilk 8 elemanını atıyoruz
     int myArr[10] = { -18, -13, -8, -3, 2, 7, 12, 17};
 
     // Tüm elemanları yazdıralım
+    cout << "Dizinin tum elemanlari:\n";
+
     for(int i = 0; i < 10; i++)
     {
         cout << myArr[i] << " ";
     }
-    cout << endl;
+    cout << "\n\n";
 
     // Negatif değerleri NULL olarak değiştirelim
     for(int i = 0; i < 10; i++)
@@ -24,11 +25,13 @@ int main()
     }
 
     // Tekrar yazdıralım
+    cout << "Negatif olanlari sifir yaptik:\n";
+
     for(int i = 0; i < 10; i++)
     {
         cout << myArr[i] << " ";
     }
-    cout << endl;
+    cout << "\n\n";
 
     /* İKİ BOYUTLU DİZİ ÜZERİNDE İŞLEMLER */
 
@@ -44,6 +47,8 @@ int main()
     }
 
     // Oluşan değerleri yazdıralım
+    cout << "Iki boyutlu dizi elemanlari:\n";
+
     for (int i = 0; i < 5; i++)
     {
         for (int j = 0; j < 8; j++)
@@ -52,6 +57,31 @@ int main()
         }
         cout << endl;
     }
+
+    cout << "\n\n";
+    // İndisi çift olan satırları 35 yapıyoruz
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 8; j++)
+        {
+            if (j % 2 == 0) myArr2[i][j] = 35;
+        }
+    }
+
+    // Tekrar yazdıralım ve görelim
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 8; j++)
+        {
+            cout << left << setw(10) << myArr2[i][j];
+        }
+        cout << endl;
+    }
+
+    /*
+    doküman üzerindeki örnekleri kendi derleyicinize kopyalayarak istediğiniz işlemleri
+    gerçekleştirebilirsiniz.
+     */
 
     return 0;
 }
