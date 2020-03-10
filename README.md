@@ -1,5 +1,5 @@
 ## Doğrusal Veri Yapıları
-Doğrusal veri yapıları (linear data structures) üzerine yazdığım medium yazılarına aşağıdan ulaşabilirsiniz. Örnek uygulamaları da kod kısmından indirebilir ve/veya inceleyebilirsiniz.
+Doğrusal veri yapıları (linear data structures) üzerine yazdığım medium yazılarına aşağıdan ulaşabilirsiniz. Örnek uygulamaları da kod kısmından indirebilir ve inceleyebilirsiniz.
 
 
 #### Medium Bağlantıları
